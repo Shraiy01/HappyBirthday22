@@ -1,0 +1,183 @@
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Salsa";
+    /* background-color: #bffde6; */
+
+
+}
+
+
+@media screen and (min-width:769px) {
+    
+header{
+    
+    padding: 2vw 4vw;
+    box-shadow: 2px 3px 8px 1px gainsboro;
+    height:120px;
+    
+}
+
+
+nav h1{
+    font-size: 2.5vw;
+}
+
+/* nav h2{
+
+} */
+
+section{
+    position: relative;
+    display: flex;
+    /* border: 2px solid black; */
+     padding: 1vw;
+     
+   
+   
+}
+section article:first-of-type{
+   
+    
+    display: flex;
+    flex-direction:column ;
+    justify-content: space-between;
+    gap: 2vw;
+    width: 60%;
+    padding: 3vw;
+
+   
+  
+}
+
+section article:first-of-type h1{
+     font-family:"Lemon";
+     font-size: 2vw;
+     color: rgba(24, 125, 141, 0.715);
+     
+
+}
+
+section article:first-of-type p{
+    font-family: "Lemon";
+    font-size: 1.2vw;
+    text-align: justify;
+    color: rgba(0, 0, 0, 0.607);
+}
+
+.btn{
+    width: 20%;
+    height: 5vh;
+    text-align: center;
+    margin: auto;
+    margin-top: 8px;
+    border: 2px #9c4b99 solid;
+    border-radius: 10px;
+    font-size: 1.3vw;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
+
+
+
+section article:last-of-type{
+   width: 40%;
+    background-image: url('happy-kids-huge-cake-candles-gift-boxes-celebrating-birthday-party-kids-birthday-party-kids-party-ideas-indoor-happy-277593712.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 500px;
+}
+
+    
+}
+@media screen and (min-width:320px) and (max-width:468px) {
+    
+
+header{
+    
+    padding: 3.5vw 3vw;
+    box-shadow: 2px 3px 8px 1px gainsboro;
+    height:80px;
+    
+}
+
+
+nav h1{
+    font-size: 2.8vw;
+}
+
+/* nav h2{
+
+} */
+
+section{
+    position: relative;
+    display: flex;
+    /* border: 2px solid black; */
+     padding: 1vw;
+     
+   
+   
+}
+section article:first-of-type{
+   
+    
+    display: flex;
+    flex-direction:column ;
+    justify-content: space-between;
+    gap: 4vw;
+    width: 90%;
+    padding: 4vw;
+
+   
+  
+}
+
+section article:first-of-type h1{
+     font-family:"Lemon";
+     font-size: 6vw;
+     color: rgba(24, 125, 141, 0.715);
+     
+
+}
+
+section article:first-of-type p{
+    font-family: "Lemon";
+    font-size: 3.1vw;
+    text-align: justify;
+    color: rgba(0, 0, 0, 0.607);
+}
+
+.btn{
+    width: 20%;
+    height: 7vw;
+    text-align: center;
+    margin: auto;
+    margin-top: 8px;
+    border: 2px #9c4b99 solid;
+    border-radius: 10px;
+    font-size: 2.3vw;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
+
+
+
+section article:last-of-type{
+    position: absolute;
+    left: 60px;
+    top: 430px;
+    width: 65vw;
+    height: 65vw;
+    background-image: url('happy-kids-huge-cake-candles-gift-boxes-celebrating-birthday-party-kids-birthday-party-kids-party-ideas-indoor-happy-277593712.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+}
